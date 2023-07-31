@@ -16,14 +16,13 @@ export default function App() {
           options={{
             headerTitle: 'Pizzas Time !',
             headerStyle: {
-              alignItems: 'center',
-              justifyContent: 'center',
               backgroundColor: '#FF0000',
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
               fontWeight: 'bold',
             },
+            headerTitleAlign: 'center',
           }}
         />
       </Stack.Navigator>

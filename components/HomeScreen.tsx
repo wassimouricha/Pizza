@@ -13,6 +13,7 @@ export default function HomeScreen() {
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
       <ScrollView >
+        <View style={{backgroundColor:"#FF0000" }}>
         {
             pizzas.map((pizza, index) => (
                 <PizzasItem
@@ -26,6 +27,7 @@ export default function HomeScreen() {
                />
             ))
         }
+        </View>
         </ScrollView>
     </View>
 
