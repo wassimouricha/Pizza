@@ -1,19 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View, Alert } from 'react-native';
 import { PizzasItem } from './PizzasCard';
 import { pizzas } from '../data/pizzaData';
 
-const alerte = () => {
-  alert("Votre pizza a été sélectionnée" );
-}
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
       <ScrollView >
-        <View style={{backgroundColor:"#FF0000" }}>
+        <View style={{}}>
         {
             pizzas.map((pizza, index) => (
                 <PizzasItem
@@ -23,7 +18,8 @@ export default function HomeScreen() {
                     basePizza={pizza.basePizza}
                     ingredientsPizza={pizza.ingredientsPizza}
                     prixPizza={pizza.prixPizza}
-                    onPress={() => alerte}
+                    imagePizza={pizza.imagePizza}
+                    onPress={() => {}}
                />
             ))
         }
