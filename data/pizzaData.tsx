@@ -10,12 +10,12 @@ export const pizzas = [
       imagePizza: require("../assets/pizza1.jpg") as ImageSourcePropType,
     },
     {
-        nomPizza: "Reine" ,
+        nomPizza: "Chevre miel" ,
         taillePizza: "Grande",
-        basePizza: "Tomate",
-        ingredientsPizza: "Jambon, Champignons, Fromage",
+        basePizza: "Crème",
+        ingredientsPizza: "Chèvre, Miel, Fromage",
         prixPizza: 12.99,
-        imagePizza: require("../assets/pizza1.jpg") as ImageSourcePropType,
+        imagePizza: require("../assets/pizzam.jpeg") as ImageSourcePropType,
     },
     {
         nomPizza: "4 Fromages" ,
@@ -26,12 +26,12 @@ export const pizzas = [
         imagePizza: require("../assets/pizza2.jpg") as ImageSourcePropType,
     },
     {
-        nomPizza: "4 Fromages" ,
+        nomPizza: "Saumon" ,
         taillePizza: "Grande",
         basePizza: "Crème",
-        ingredientsPizza: "Mozzarella, Chèvre, Gorgonzola, Parmesan",
+        ingredientsPizza: "Saumon, Crème, Fromage",
         prixPizza: 14.99,
-        imagePizza: require("../assets/pizza2.jpg") as ImageSourcePropType,
+        imagePizza: require("../assets/pizzasa.jpeg") as ImageSourcePropType,
     },
 
   ]
