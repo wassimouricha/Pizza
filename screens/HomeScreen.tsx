@@ -1,6 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
 import { ScrollView, StyleSheet, Text, View, Alert } from 'react-native';
-import { PizzasItem } from './PizzasCard';
+import { PizzasItem } from '../components/PizzasCard';
 import { pizzas } from '../data/pizzaData';
 
 
